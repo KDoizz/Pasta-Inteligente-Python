@@ -3,29 +3,35 @@ import shutil
 
 # Define as extensões de arquivo e as pastas correspondentes
 extensions = {
-    ".jpg": "Imagens",
-    ".jpeg": "Imagens",
-    ".png": "Imagens",
-    ".gif": "Imagens",
-    ".webp": "Imagens",
-    ".doc": "Documentos",
-    ".docx": "Documentos",
-    ".pdf": "Documentos",
-    ".pptx": "Documentos",
-    ".txt": "Documentos",
-    ".mp4": "Videos",
-    ".mov": "Videos",
-    ".avi": "Videos",
-    ".mp3": "Audio",
-    ".ogg": "Audio",
-    ".rar": "Arquivos",
-    ".zip": "Arquivos",
-    ".exe": "Executáveis",
-    ".sfk": "Outros",
+    ".jpg": "01 Imagens",
+    ".jpeg": "01 Imagens",
+    ".png": "01 Imagens",
+    ".gif": "01 Imagens",
+    ".webp": "01 Imagens",
+    ".doc": "01 Documentos",
+    ".docx": "01 Documentos",
+    ".pdf": "01 Documentos",
+    ".pptx": "01 Documentos",
+    ".txt": "01 Documentos",
+    ".mp4": "01 Videos",
+    ".mov": "01 Videos",
+    ".avi": "01 Videos",
+    ".mp3": "01 Audio",
+    ".ogg": "01 Audio",
+    ".rar": "01 Arquivos",
+    ".zip": "01 Arquivos",
+    ".torrent": "01 Arquivos",
+    ".exe": "01 Executáveis",
+    ".msi": "01 Executáveis",
+    ".jar": "01 Executáveis",
+    ".c": "01 CODIGOS",
+    ".py": "01 CODIGOS",
+    ".java": "01 CODIGOS",
+    ".sfk": "01 Outros",
 }
 
 # Define a pasta onde os arquivos devem ser organizados
-source_folder = "D:\ktwo"
+source_folder = "D:\ktwo" # <- Coloque o caminho da pasta desejada
 
 # Percorre todos os arquivos na pasta fonte
 for filename in os.listdir(source_folder):
